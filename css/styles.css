@@ -1,13 +1,12 @@
 
 body {
 	font: 90% helvetica, sans-serif;
-	line-height: 1.88889;
 	background: linear-gradient(to bottom, #bfbfbf 0%, #000000 100%);
-	padding: 0;
 	}
 h1 {
   font-size: 50px;
   font-weight: bolder;
+  line-height: 1.5;
   padding: 50px 0px 50px 0px;
   margin: -10px -10px 0px -10px;
   border-style: solid;
@@ -21,6 +20,7 @@ h1 {
   #image {
     max-width: 100%;
     display: block;
+    height: auto;
     margin-top: 30px;
   }
   .center {
@@ -44,7 +44,7 @@ h1 {
   flex-direction: row;
   align-items: flex-start;
   text-align: left;
-  height: 100%
+  height: auto;
   color: #ffffe6;
   border-style: double;
   border-width: 1px 1px;
@@ -52,14 +52,15 @@ h1 {
 }
 ul {
     list-style-type: none;
+    line-height: 3;
 }
 #year {
   flex-direction: column;
-  height: 50%;
+  height: inherit;
 }
 #event {
   flex-direction: column;
-  height: 50%;
+  height: inherit;
 }
 #character-link {
     color: #805500;
