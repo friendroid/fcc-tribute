@@ -6,6 +6,7 @@ body {
 h1 {
   font-size: 50px;
   font-weight: bolder;
+  text-align: center;
   line-height: 1.5;
   padding: 50px 0px 50px 0px;
   margin: -10px -10px 0px -10px;
@@ -22,12 +23,12 @@ h1 {
     display: block;
     height: auto;
     margin-top: 30px;
+    width:70%;
   }
   .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
     color: #ffffe6;
   }
   #img-caption {
@@ -38,6 +39,7 @@ h1 {
   .timeline-heading {
     color: #ffffe6;
     font-size: 30px;
+    text-align: center;
   }
   #flex-container {
   display: flex;
@@ -45,9 +47,10 @@ h1 {
   align-items: flex-start;
   text-align: left;
   height: auto;
+  width: 65%;
   color: #ffffe6;
-  border-style: double;
-  border-width: 1px 1px;
+  border-style: solid;
+  border-width: 1px;
   border-spacing: 35px;
 }
 ul {
