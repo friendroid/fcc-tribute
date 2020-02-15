@@ -18,20 +18,18 @@ h1 {
   border-left: none;
   background-color: #805500;
 }
-  #image {
-    max-width: 100%;
-    display: block;
-    height: auto;
+  .q-img {
     margin-top: 30px;
-    width:70%;
+    width: 70%;
   }
   .center {
+		max-width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     color: #ffffe6;
   }
-  #img-caption {
+  .img-caption {
     font-size: 14px;
     padding: 10px 0px 0px 0px;
     margin-left: 178px;
@@ -41,7 +39,7 @@ h1 {
     font-size: 30px;
     text-align: center;
   }
-  #flex-container {
+  .flex-container {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -69,3 +67,9 @@ ul {
 .character-link {
     color: #805500;
   }
+
+	@media screen and (max-width: 1000px) {
+  .year {
+    display: none;
+  }
+}
