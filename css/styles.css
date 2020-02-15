@@ -52,22 +52,20 @@ h1 {
   border-style: solid;
   border-width: 1px;
   border-spacing: 35px;
+	overflow: hidden;
 }
 ul {
     list-style-type: none;
     line-height: 3;
 }
-#year {
+.year {
   flex-direction: column;
   height: inherit;
 }
-#event {
+.event {
   flex-direction: column;
   height: inherit;
 }
-#character-link {
+.character-link {
     color: #805500;
   }
-#tribute-link {
-    color: #805500;
-    }
